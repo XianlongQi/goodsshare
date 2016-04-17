@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+body {
+  background-image: url(images/BKG_Overlay_1400x800.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Microsoft YaHei";
+}
+
+.warpper {
+   width:100%;
+   margin: 0 auto;
+}
+
+#headerWarpper {
+   width:100%;
+   height:50px;
+   background-color: #2B6C85
+}
+
+#headerWarpper #header {
+   height: 50px;
+   width:1200px;
+   margin: 0 auto;
+   
+}
+
+#headerWarpper #header .logo {
+  float:left;
+  width: 240px;
+  height: 50px;
+   background: url(images/LOGO_40x40.png) no-repeat 0px;
+   font-size: 20px;
+   color: #FFF;
+   line-height: 50px;
+   text-align: left;
+   padding-left: 50px;
+   cursor: pointer;
+}
+
+#headerWarpper #header .menu {
+  float:left;
+  width: 500px;
+  height: 50px;
+}
+
+#headerWarpper #header .menu li{
+  float:left;
+  width: 120px;
+  height: 50px;
+}
+
+#headerWarpper #header .menu li a {
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  color: #FFF;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #4F92AB;
+  border-radius: 1px;
+}
+
+#headerWarpper #header .tool {
+   float:right;
+   width: 300px;
+   height: 50px;
+   position: relative;
+}
+
+#headerWarpper #header .tool input {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 240px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #E3F7FF;
+  text-indent: 4px;
+  border: 1px solid #E3F7FF;
+}
+
+#headerWarpper #header .tool .search_button {
+  position: absolute;
+  top: 11px;
+  left: 211px;
+  background-color: #E3F7FF;
+  cursor: pointer;
+  
+}
+
+#headerWarpper #header .tool .role_switch_button {
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+  right: 0px;
+}
+
+#breadcrumb {
+   height:30px;
+   margin: 0 auto;
+   width: 1200px;
+   
+}
+
+#breadcrumb ul {
+   overflow: hidden;
+}
+
+#breadcrumb  li {
+   height:30px;
+   margin: 0 auto;
+   color: #707070;
+   float: left;
+   width: 70px;
+   line-height: 30px;
+   text-align: left;
+}
+
+#breadcrumb  li a {
+   text-decoration: none;
+   color: #707070;
+}
+
+.main {
+   overflow: hidden;
+   width: 1200px;
+   margin: 0 auto;
+}
+
+#sucessFlashMessage {
+  background-color: green;
+  position: absolute;
+  width: 200px;
+  color: #FFF;
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  left: 600px;
+  z-index: 100;
+  top: 50px;
+  border-radius: 3px;
+}
+
+#errorFlashMessage {
+  background-color: red;
+  position: absolute;
+  width: 200px;
+  color: #FFF;
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  left: 600px;
+  z-index: 100;
+  top: 50px;
+  border-radius: 3px;
+  display:none;
+}
+
+.error_message {
+  margin-left: 10px;
+  color: red;
+  display: none;
+}
+
+.pagination {
+  position: relative;
+  height: 30px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.pagination .go_button {
+  width: 40px;
+  height: 20px;
+  background: #4f92AB;
+  border-radius: 1px;
+  line-height: 20px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  color: #FFF;
+  position: absolute;
+  top:5px;
+  right:0px
+}
+
+.pagination span {
+  display: inline-block;
+  position: absolute;
+}
+
+.pagination .go_page {
+  right: 50px;
+}
+
+.pagination .go_input {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  border-radius: 1px;
+  display:inline-block;
+  border: 1px solid #4F92AB;
+  right: 70px;
+  top: 5px;
+  text-indent: 4px;
+}
+
+.pagination .go_desc {
+  right: 110px;
+}
+
+.pagination .total_page {
+  right: 143px;
+}
+
+.pagination .last_page {
+  right: 187px;
+  top: 5px;
+}
+
+.pagination .next_page {
+  right: 215px;
+  top: 5px;
+}
+
+.pagination .current_page {
+  right: 240px;
+}
+
+.pagination .pre_page {
+  right: 278px;
+  top: 5px;
+}
+
+.pagination .first_page {
+  right: 307px;
+  top: 5px;
+}
+
+.disabled_screen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1000;
+  top: 0px;
+  left: 0px;
+  opacity: 0.2;
+  background: #000;
+  filter: alpha(opacity=20)
+}
+
+.pop_win {
+ width: 400px; 
+ color:#FFF; 
+ height: 120px;
+ z-index: 10000;
+ position: absolute;
+ background: #445ACB;
+ top:50%; 
+ left:50%; 
+ margin-top:-60px; 
+ margin-left:-200px
+}
+
+.pop_win .title {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.pop_win .action {
+    height: 50px;
+    margin-top: 30px;"
+}
+
+.pop_win .action_item {
+    display: inline-block;
+    background: #000;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+

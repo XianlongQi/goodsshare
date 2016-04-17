@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/**图书分享平台我的图书页面left部份开始*/
+#mybookMain #left {
+   float: left;
+   min-height: 500px;
+   width: 180px;
+}
+#mybookMain #left .leftBinner{
+   float: left;
+   min-height: 350px;
+   width: 180px;
+   background-color: #fff;
+   
+}
+
+#mybookMain #left .leftTitle{
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+  font-family: "Microsoft YaHei";
+}
+
+#mybookMain #left ul li{
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  font-family: "Microsoft YaHei";
+  border-bottom: 1px solid #dfe1df;
+}
+
+#mybookMain #left ul li a:link{
+  font-size: 16px;
+  color: #000;
+  font-family: "Microsoft YaHei";
+}
+
+#mybookMain #left ul li:hover{
+  background-color: #2b6c85;
+  color: #fff;
+}
+
+#mybookMain #left ul li a:visited{
+  color: #000;
+}
+
+#mybookMain #left ul li a:active{
+  background-color: #2b6c85;
+  color: #000;
+}
+
+/**图书分享平台我的图书页面left部份结束*/
+
+/**图书分享平台我的图书页面内容导航部份开始*/
+#mybookMain #content {
+   float: right;
+   min-height: 500px;
+   width: 1000px;
+   background-color: #fbfee0;
+}
+
+#mybookMain #content .bookShow {
+   width:205px;
+   height:300px;
+   margin-left:10px;
+   margin-right: 25px;
+   margin-top: 10px;
+   float: left;
+   cursor: pointer;
+}
+
+#mybookMain #content .bookImage {
+   width:200px;
+   height:200px;
+   cursor: pointer;  
+}
+
+#mybookMain #content .bookName {
+   width:200px;
+   height:20px; 
+   margin:0 auto; 
+   text-align:left; 
+   font-size: 18px;
+   margin-top: 5px;
+   cursor: pointer;
+   overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#mybookMain #content .bookAuthor {
+   width:200px;
+   height:20px; 
+   margin:0 auto; 
+   text-align:left;  
+   color:#a7a7a7;
+   cursor: pointer;
+   overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#mybookMain #content .bookBottom {
+   width:200px;
+   height:30px; 
+   margin:0 auto; 
+   text-align:left; 
+   cursor: pointer;
+   overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#mybookMain #content .bookBottom_text {
+   color:#2b46a4;
+   line-height:30px;
+   display:block;
+   margin-left:37px;
+   font-size: 18px;
+   cursor: pointer;
+}
+
+
+/**图书分享平台我的图书页面内容导航部份结束*/
+
+

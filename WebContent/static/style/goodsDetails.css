@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+#mybookMain #content #detail {
+   background-color: #2b3c66;
+   height: 300px;
+   width: 1000px;
+   border: 1px solid black;
+   position:absolute;
+   z-index: 555;
+   top: 380px;
+}

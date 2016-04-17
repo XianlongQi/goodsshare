@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+body {
+	background:url(images/BKG_Login_1366x800.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-attachment: fixed;
+}
+.login_title {
+	width:490px;
+	height:110px;
+	background:url(images/Login_IMG_Text_460x110.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	margin-left:140px;
+	margin-top:470px;
+	text-indent:-1000px;
+}
+
+
+.login_form {
+    width: 360px;
+    height: 400px;
+    position: absolute; 
+    top: 160px;
+    left: 820px; 
+
+    border-radius: 3px;
+    background-color: #E5EEFF;
+}
+
+.login_form .logo {
+	height:25px;
+	width:140px;
+	margin-left:40px;
+	margin-top:30px;
+	background:url(images/Login_Augmentum_140x25.png); 
+	background-repeat: no-repeat;
+	}
+.login_form .title {
+	text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: #5165B2;
+    width: 340px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+    margin-top: 15px;
+    
+}
+
+.login_form .line {
+	position: relative;
+    margin-top: 40px;
+    line-height: 40px;
+    text-align: left;
+    height: 40px;
+
+}
+
+.login_form .button {
+	width: 210px;
+    height: 30px;
+    margin-left: 110px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #5394CB;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login_footer {
+	width: 800px;
+	height: 30px;
+	position:relative;
+	top:600px;
+	margin:0 auto;
+	border-top: 1px solid #E7E7E7;
+	color: #E7E7E7;
+	padding-top: 10px;
+
+}
+
+#loginForm label {
+	margin-left: 40px;
+    position: absolute;
+    font-size: 15px;
+    color: #333333;
+}
+
+#loginForm input {
+	position: absolute;
+    left: 110px;
+    line-height: 30px;
+    width: 210px;
+    height: 30px;
+    border: 0.5px #858585;
+    margin-top: 5px;
+}

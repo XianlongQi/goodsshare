@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/**图书分享平台编辑图书页面开始*/
+#editBookMain {
+  background-color: #FFF; 
+  min-height: 500px; 
+  border: 1px solid #d5d5d5
+}
+
+#editBookMain .info_area {
+  margin: 10px auto;
+}
+
+#editBookMain .info_area .title {
+  width: 1100px;
+  height: 30px;
+  text-align: left;
+  margin: 0px auto;
+  border-bottom: 1px dashed #A4A4A4;
+  line-height: 30px;
+}
+
+#editBookMain .info_area .show_image {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #A4A4A4;
+  background-color: #A4A4A4;
+  margin-top: 10px;
+  margin-left: 50px
+}
+
+#editBookMain .info_area ul li {
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+#editBookMain .info_area ul li input {
+  width: 210px;
+  height: 20px;
+  border: 1px solid #858585;
+  border-radius: 3px;
+  text-indent: 4px;
+}
+
+#editBookMain .info_area ul li textarea {
+  width: 210px;
+  height: 80px;
+  border: 1px solid #858585;
+  border-radius: 3px;
+  text-indent: 4px;
+}
+
+#editBookMain .info_area ul li label {
+  float:left;
+}
+
+#editBookMain .info_area .button {
+  height: 30px;
+  line-height: 30px;
+  background-color: #C8E8FE;
+  border-radius: 3px;
+  text-align: center;
+  width: 70px;
+  margin-left: 92px;
+  margin-top: 40px;
+  cursor: pointer;
+}
